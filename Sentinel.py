@@ -12,3 +12,4 @@ val_file = "data/Sentinel2_L1C_val.tif"
 class_file = "data/Sentinel2_L1C_class.tif"
 if __name__ == "__main__":
     print("Libraries imported successfully.")
+    print(torch.cuda.is_available())
